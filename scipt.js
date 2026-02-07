@@ -30,7 +30,7 @@ form.addEventListener('submit', e => {
     })
     .finally(() => {
         btn.disabled = false;
-        btn.innerText = "Envoyer les données";
+        btn.innerText = "SOUMETTRE";
     });
 });
 function doPost(e) {
